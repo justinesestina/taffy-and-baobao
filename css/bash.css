@@ -1,0 +1,72 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+} 
+
+#space{
+	padding-top: 2%;
+	padding-left: 2%;
+}
+.word{
+	color:rgb(11, 191, 204);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Lucida Console", Monaco, monospace;
+                 font-size: 90%;
+  line-height: 1.5;
+  background-image: linear-gradient(to bottom, #606969 0%, #dbebf0 100%);
+}
+
+
+.browser {
+  height: 80vh;
+  width: 65vw;
+  border-radius: 10px 30px;
+  background: #333;
+  box-shadow: 0 10px 45px -5px rgba(0,0,0,0.8)
+}
+
+.close {
+   background: #142d4c;
+}
+
+.min {
+   background: #385170;
+ }
+
+.max {
+   background: #53a8b6;
+}
+
+.browser,
+.browserbar {
+  border-radius: 5px 5px 0 0;  
+}
+
+.browserbar {
+  height: 30px;
+  background: #f9f9f3;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.browserbar > button {
+  border-radius: 50%;
+  border: 0;
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+}
+
+
